@@ -1,0 +1,68 @@
+*{
+	margin:0;
+	padding: 0;
+}
+
+header{
+	background-color:#008ae6;
+	color: white;
+	text-align: center;
+	height: 100px;
+}
+#siteName{
+	font-style: bold;
+}
+#siteInfo{
+	font-style: italic;
+}
+
+
+nav ul{
+	display:flex;
+	list-style-type: none;
+	background-color: grey; 
+}
+a{
+	text-decoration: none;
+	font-weight: 20px;
+}
+li{
+	padding: 20px 20px;
+
+}
+
+nav a:link{
+	color: white;
+}
+nav li a:hover{
+	background-color: red;
+	color:black;
+	text-decoration: underline;
+}
+nav a:visited{
+	color:green;
+}
+/*----------------Content-------------*/
+
+.row{
+	display: flex;
+}
+.left_side_content{
+	width: 15%;
+	padding-left: 2%;
+	background-color:#008ae6;
+	color: white;
+}
+
+.left_side_content ul{
+	list-style-type: none;
+}
+.content{
+	padding: 2%;
+}
+
+/* from student_details.php*/
+.search{
+
+    background-color: grey;
+}
